@@ -1,0 +1,180 @@
+@media only screen and (max-width: 1050px) {
+    body {
+        position: relative;
+    }
+
+    .navbar {
+        flex-direction: column;
+        height: 150px;
+    }
+
+    .nav-logo {
+        position: absolute;
+        top: 10px;
+        left: 20px;
+    }
+
+    .nav-address {
+        position: absolute;
+        top: 15px;
+        left: 120px;
+    }
+
+    .nav-singin {
+        display: flex;
+        position: absolute;
+        top: 20px;
+        right: 200px;
+    }
+
+    .nav-returns {
+        position: absolute;
+        top: 10px;
+        right: 100px;
+    }
+
+    .nav-cart {
+        position: absolute;
+        top: 10px;
+        right: 20px;
+    }
+
+    .nav-search {
+        width: 94%;
+        position: absolute;
+        top: 80px;
+    }
+
+    .panel {
+        height: 65px;
+    }
+
+    .panel-all {
+        position: absolute;
+        left: 20px;
+        top: 186px;
+    }
+
+    .panel-ops {
+        position: absolute;
+        top: 160px;
+        text-align: center;
+    }
+
+    .panel-deals {
+        position: absolute;
+        top: 186px;
+        right: 20px;
+    }
+
+    .hero-section {
+        height: 250px;
+    }
+
+    .shop-section {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        width: 100%;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .hero-section {
+        height: 150px;
+    }
+
+    .hero-message {
+        height: 60px;
+        width: 95%;
+        padding: 5px;
+    }
+
+    .panel {
+        height: 75px;
+    }
+
+    .panel-all {
+        position: absolute;
+        left: 20px;
+        top: 196px;
+    }
+
+    .panel-deals {
+        position: absolute;
+        top: 196px;
+        right: 20px;
+    }
+
+    .box {
+        height: auto;
+    }
+
+    h2 {
+        font-size: 16px;
+    }
+
+    .height {
+        height: 50%;
+    }
+
+    .rmed {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .nav-logo {
+        left: 5px;
+    }
+
+    .nav-address {
+        left: 100px;
+    }
+
+    .nav-returns {
+        right: 90px;
+    }
+
+    .nav-cart {
+        right: 5px;
+    }
+
+    .hero-message {
+        font-size: 10px;
+        height: 30px;
+    }
+
+    .shop-section {
+        grid-template-columns: auto auto;
+    }
+
+    .footer-panel2 {
+        justify-content: space-between;
+    padding: 20px;
+    }
+
+    .rmed4px {
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width: 400px) {
+    .shop-section {
+        width: 100vw;
+        grid-template-columns: auto;
+    }
+
+    .box {
+        width: 90vw;
+        height: 355px;
+    }
+
+    .height {
+        height: 250px;
+    }
+}
