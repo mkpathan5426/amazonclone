@@ -173,3 +173,29 @@
         margin: 10px 0;
     }
 }
+
+@media only screen and (max-width: 350px) {
+    .shop-section {
+        grid-template-columns: auto;
+    }
+
+    .rmed350px {
+        display: none;
+    }
+    .box {
+        height: 233px;
+        margin: 5px;
+    }
+    .height {
+        height: 150px;
+    }
+
+    .footer-panel {
+        height: 30px;
+    }
+
+    .footer-panel3 {
+        height: 50px;
+        align-items: flex-start;
+    }
+}

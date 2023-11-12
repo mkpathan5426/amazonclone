@@ -180,9 +180,8 @@ span {
 
 /* Shop Section  */
 .shop-section {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
     background-color: #e2e7e6;
     margin: 15px 0;
 }
@@ -318,7 +317,7 @@ ul li a {
     height: 70px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
 }
 
 .footer-panel3 img {
